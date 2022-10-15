@@ -40,7 +40,7 @@ function removeKFromList(l, k) {
     result.enqueue(el);
   })
 
-  return result.head;
+  return result.getUnderlyingList();
 }
 
 module.exports = {
